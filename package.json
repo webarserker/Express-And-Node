@@ -1,0 +1,22 @@
+{
+  "name": "nodeandexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "devserver": "nodemon helloWorld.js",
+    "meadowlark:server": "nodemon ./meadowlark/meadowlark.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express3-handlebars": "^0.5.2",
+    "license-sniffer": "^0.1.2",
+    "memory-fs": "^0.4.1",
+    "nodemon": "^1.14.3",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
